@@ -3,12 +3,12 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>USB</title>
+    <title>Nothing</title>
     <link>https://JeahaOh.github.io/</link>
     
     <atom:link href="https://jeahaoh.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
-    <description></description>
+    <description>Nothing In This Blog</description>
     <pubDate>Sat, 15 Feb 2025 03:36:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
