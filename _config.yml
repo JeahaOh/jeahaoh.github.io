@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: USB
-subtitle: ''
-description: ''
+title: Nothing
+subtitle: 'Nothing In This Blog'
+description: 'Nothing In This Blog'
 keywords:
 author: Jeaha
 language: ko
@@ -13,7 +13,7 @@ timezone: Asia/Seoul
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://JeahaOh.github.io/usb
+url: https://JeahaOh.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -89,9 +89,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# include:
+# exclude:
+# ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -103,4 +103,33 @@ theme: chic
 deploy:
   type: 'git'
   repo: https://github.com/JeahaOh/usb.git
-  branch: master
+
+nofollow:
+  enable: true
+  field: site
+  exclude: ''
+
+sitemap:
+  path: sitemap.xml
+  tag: true
+  category: true
+  archive: true
+  template: sitemap
+  exclude:
+    - 'tags/**'
+    - 'categories/**'
+    - 'code/**'
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+    
+
+robotstxt:
+  user_agent: '*'
+  allow:
+    - /
+  sitemap: https://JeahaOh.github.io/usb/sitemap.xml
+
+google_analytics: GTM-WPD9KDQJ
